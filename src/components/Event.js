@@ -12,7 +12,7 @@ export function Event({ id }) {
   const loginContext = useContext(Context)
 
   useEffect(() => {
-    fetch(`http://vef2-20222-v3-synilausn.herokuapp.com/events/${id}`)
+    fetch(`https://vef2-20222-v3-synilausn.herokuapp.com/events/${id}`)
       .then(response => {
         if(response.ok) {
           return response.json();

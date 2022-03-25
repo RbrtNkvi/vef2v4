@@ -8,7 +8,7 @@ export function Events(){
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch('http://vef2-20222-v3-synilausn.herokuapp.com/events')
+    fetch('https://vef2-20222-v3-synilausn.herokuapp.com/events')
       .then(response => {
           if(response.ok) {
             return response.json();
