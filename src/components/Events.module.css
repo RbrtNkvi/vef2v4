@@ -1,0 +1,13 @@
+.name {
+  color: #663;
+  font-weight: bold;
+}
+
+.description {
+  margin: 0 auto 1em;
+  font-style: italic;
+}
+
+section {
+  margin-left: -1.5em;
+}
